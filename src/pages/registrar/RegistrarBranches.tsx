@@ -185,7 +185,7 @@ export default function RegistrarBranches() {
                 className="cursor-pointer hover:shadow-card transition-all duration-200 hover:border-primary/50 relative group"
                 onClick={() => navigate(`/registrar/branches/${branch.id}`)}
               >
-                <div className="absolute top-3 right-3 opacity-0 group-hover:opacity-100 transition-opacity flex gap-1">
+                <div className="absolute top-3 right-20 transition-opacity flex gap-1">
                   <Button
                     variant="ghost"
                     size="icon"
